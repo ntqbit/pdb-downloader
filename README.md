@@ -20,5 +20,13 @@ options:
                         Output directory
 ```
 
+Example:
+```
+python download_pdb.py -f d3d11.dll
+PDB signature: 4B57CB6785D3D4454CE287EAA21B3C6C1
+PDB filename: d3d11.pdb
+PDB written to d3d11.pdb
+```
+
 ### Credits
 [pefile](https://github.com/erocarrera/pefile) - the magnificent python library for loading PE files
